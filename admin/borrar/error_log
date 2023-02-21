@@ -1,0 +1,38 @@
+[30-Oct-2020 10:16:01 America/Tijuana] PHP Notice:  Undefined index: unidad in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-tour.php on line 31
+[30-Oct-2020 10:16:01 America/Tijuana] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-tour.php on line 32
+[30-Oct-2020 10:16:01 America/Tijuana] PHP Warning:  unlink(../../upload/tours/1969/12/74QM7VI8BG.jpg): No such file or directory in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-tour.php on line 43
+[30-Oct-2020 10:16:01 America/Tijuana] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-tour.php:31) in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-tour.php on line 46
+[30-Oct-2020 10:16:01 America/Tijuana] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-tour.php:31) in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-tour.php on line 47
+[30-Oct-2020 10:38:59 America/Tijuana] PHP Notice:  Undefined index: tour in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-hotel.php on line 31
+[30-Oct-2020 10:38:59 America/Tijuana] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-hotel.php on line 32
+[30-Oct-2020 10:38:59 America/Tijuana] PHP Fatal error:  Uncaught RuntimeException: [42S02] : SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_panchitos.hotel' doesn't exist in /home2/grupoar6/public_html/vpgloscabos/include/Database.php:216
+Stack trace:
+#0 /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-hotel.php(40): Database->update('hotel', Array, Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/vpgloscabos/include/Database.php on line 216
+[30-Oct-2020 10:40:09 America/Tijuana] PHP Notice:  Undefined index: tour in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-hotel.php on line 31
+[30-Oct-2020 10:40:09 America/Tijuana] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-hotel.php on line 32
+[30-Oct-2020 10:40:09 America/Tijuana] PHP Fatal error:  Uncaught RuntimeException: [42S02] : SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_panchitos.hotel' doesn't exist in /home2/grupoar6/public_html/vpgloscabos/include/Database.php:216
+Stack trace:
+#0 /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-hotel.php(40): Database->update('hotel', Array, Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/vpgloscabos/include/Database.php on line 216
+[30-Oct-2020 10:40:41 America/Tijuana] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-hotel.php on line 32
+[30-Oct-2020 10:40:41 America/Tijuana] PHP Fatal error:  Uncaught RuntimeException: [42S02] : SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_panchitos.hotel' doesn't exist in /home2/grupoar6/public_html/vpgloscabos/include/Database.php:216
+Stack trace:
+#0 /home2/grupoar6/public_html/vpgloscabos/admin/borrar/foto-hotel.php(40): Database->update('hotel', Array, Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/vpgloscabos/include/Database.php on line 216
+[06-Nov-2020 09:13:34 America/Tijuana] PHP Warning:  unlink(../../upload/hoteles/2020/10/HTDIE661GS.jpg): No such file or directory in /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php on line 30
+[06-Nov-2020 09:13:34 America/Tijuana] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php:30) in /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php on line 51
+[06-Nov-2020 09:13:34 America/Tijuana] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php:30) in /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php on line 52
+[07-Nov-2020 16:20:30 America/Tijuana] PHP Warning:  unlink(../../upload/hoteles/2020/10/FHDUXB9AW7.jpg): No such file or directory in /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php on line 30
+[07-Nov-2020 16:20:30 America/Tijuana] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php:30) in /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php on line 51
+[07-Nov-2020 16:20:30 America/Tijuana] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php:30) in /home2/grupoar6/public_html/panchitostours/admin/borrar/hotel.php on line 52
+[22-Aug-2022 15:38:21 America/Tijuana] PHP Warning:  unlink(../../upload/tours/2022/07/7NUJ9LTOVV.jpg): No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php on line 30
+[22-Aug-2022 15:38:21 America/Tijuana] PHP Warning:  unlink(../../upload/tours/2022/07/OSG3XO9VS1.jpg): No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php on line 43
+[22-Aug-2022 15:38:21 America/Tijuana] PHP Warning:  unlink(../../upload/tours/2022/07/QPPKKHVN4M.jpg): No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php on line 43
+[22-Aug-2022 15:38:21 America/Tijuana] PHP Warning:  unlink(../../upload/tours/2022/07/4A1V23ROWZ.jpg): No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php on line 43
+[22-Aug-2022 15:38:21 America/Tijuana] PHP Warning:  unlink(../../upload/tours/2022/07/99871DVIQE.jpg): No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php on line 43
+[22-Aug-2022 15:38:21 America/Tijuana] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php:30) in /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php on line 51
+[22-Aug-2022 15:38:21 America/Tijuana] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php:30) in /home1/arketll6/public_html/000-SUBDOMINIOS/cabogear-tours/admin/borrar/tour.php on line 52
