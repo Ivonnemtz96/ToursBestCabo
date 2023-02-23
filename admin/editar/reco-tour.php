@@ -37,8 +37,6 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 		header('location:/admin/nuevo/reco-tour');
 		exit;
 	}else{
-
-
 		
         if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
             extract($_REQUEST);

@@ -233,6 +233,7 @@ if (isset($_REQUEST['submit']) and $_REQUEST['submit'] != "") {
                                                             <td><?php echo $caracteristicas['nombre']; ?></td>
                                                             <td><?php echo $caracteristicas['nombreIn']; ?></td>
                                                             <td>
+                                                            <a href="/admin/editar/categoria-tour?editId=<?php echo $caracteristicas['id']; ?>" class="btn btn-icon btn-primary"><i class="far fa-edit"></i></a>
                                                             </td>
                                                         </tr>
 
