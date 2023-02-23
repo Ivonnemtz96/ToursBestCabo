@@ -23,6 +23,7 @@ $rol = $rol[0];
 $rol = ($rol['nombre']);
 
 
+
 if (isset($_REQUEST['editId']) and $_REQUEST['editId'] != "") {
 
     $cateSel  =  $db->getAllRecords('toursCate', '*', ' AND id="' . $_REQUEST['editId'] . '"', 'LIMIT 1');
@@ -39,7 +40,6 @@ if (isset($_REQUEST['editId']) and $_REQUEST['editId'] != "") {
     header('location:/admin/nuevo/categoria-tour');
     exit;
 }
-
 
 if (isset($_REQUEST['submit']) and $_REQUEST['submit'] != "") {
     extract($_REQUEST);
@@ -183,7 +183,7 @@ if (isset($_REQUEST['submit']) and $_REQUEST['submit'] != "") {
 
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-12">
-                            <form method="post">
+                            <form method="post" enctype="multipart/form-data">
                                 <div class="card">
                                     <div class="card-header">
                                         <h4>Editar una característica (Recomendaciones en tour)</h4>

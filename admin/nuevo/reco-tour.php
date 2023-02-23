@@ -75,7 +75,7 @@ if (isset($_REQUEST['submit']) and $_REQUEST['submit'] != "") {
                 'fr' => $fecha,
 
             );
-            $insert    =    $db->insert('toursRest', $data);
+            $insert    =    $db->insert('toursReco', $data);
             if ($insert) {
                 setcookie("msg", "Se ha agregado Recomendación", time() + 2, "/");
                 header('location:/admin/nuevo/reco-tour'); //exito
@@ -219,7 +219,7 @@ if (isset($_REQUEST['submit']) and $_REQUEST['submit'] != "") {
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <?php $caracteristicasData = $db->getAllRecords('toursRest', '*', 'ORDER BY id ASC');
+                                                <?php $caracteristicasData = $db->getAllRecords('toursReco', '*', 'ORDER BY id ASC');
                                                 if (count($caracteristicasData) > 0) {
                                                     $y    =    '';
                                                     foreach ($caracteristicasData as $caracteristicas) {
